@@ -1,0 +1,15 @@
+/Users/winnerbylife/Desktop/IiSP/KP1/KP1/KP1T1/bin/Debug/net10.0/KP1T1
+/Users/winnerbylife/Desktop/IiSP/KP1/KP1/KP1T1/bin/Debug/net10.0/KP1T1.deps.json
+/Users/winnerbylife/Desktop/IiSP/KP1/KP1/KP1T1/bin/Debug/net10.0/KP1T1.runtimeconfig.json
+/Users/winnerbylife/Desktop/IiSP/KP1/KP1/KP1T1/bin/Debug/net10.0/KP1T1.dll
+/Users/winnerbylife/Desktop/IiSP/KP1/KP1/KP1T1/bin/Debug/net10.0/KP1T1.pdb
+/Users/winnerbylife/Desktop/IiSP/KP1/KP1/KP1T1/obj/Debug/net10.0/KP1T1.GeneratedMSBuildEditorConfig.editorconfig
+/Users/winnerbylife/Desktop/IiSP/KP1/KP1/KP1T1/obj/Debug/net10.0/KP1T1.AssemblyInfoInputs.cache
+/Users/winnerbylife/Desktop/IiSP/KP1/KP1/KP1T1/obj/Debug/net10.0/KP1T1.AssemblyInfo.cs
+/Users/winnerbylife/Desktop/IiSP/KP1/KP1/KP1T1/obj/Debug/net10.0/KP1T1.csproj.CoreCompileInputs.cache
+/Users/winnerbylife/Desktop/IiSP/KP1/KP1/KP1T1/obj/Debug/net10.0/KP1T1.sourcelink.json
+/Users/winnerbylife/Desktop/IiSP/KP1/KP1/KP1T1/obj/Debug/net10.0/KP1T1.dll
+/Users/winnerbylife/Desktop/IiSP/KP1/KP1/KP1T1/obj/Debug/net10.0/refint/KP1T1.dll
+/Users/winnerbylife/Desktop/IiSP/KP1/KP1/KP1T1/obj/Debug/net10.0/KP1T1.pdb
+/Users/winnerbylife/Desktop/IiSP/KP1/KP1/KP1T1/obj/Debug/net10.0/KP1T1.genruntimeconfig.cache
+/Users/winnerbylife/Desktop/IiSP/KP1/KP1/KP1T1/obj/Debug/net10.0/ref/KP1T1.dll

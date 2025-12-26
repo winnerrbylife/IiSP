@@ -1,0 +1,15 @@
+/Users/winnerbylife/Desktop/IiSP/KP1/KP1/KP1T2/bin/Debug/net10.0/KP1T2
+/Users/winnerbylife/Desktop/IiSP/KP1/KP1/KP1T2/bin/Debug/net10.0/KP1T2.deps.json
+/Users/winnerbylife/Desktop/IiSP/KP1/KP1/KP1T2/bin/Debug/net10.0/KP1T2.runtimeconfig.json
+/Users/winnerbylife/Desktop/IiSP/KP1/KP1/KP1T2/bin/Debug/net10.0/KP1T2.dll
+/Users/winnerbylife/Desktop/IiSP/KP1/KP1/KP1T2/bin/Debug/net10.0/KP1T2.pdb
+/Users/winnerbylife/Desktop/IiSP/KP1/KP1/KP1T2/obj/Debug/net10.0/KP1T2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/winnerbylife/Desktop/IiSP/KP1/KP1/KP1T2/obj/Debug/net10.0/KP1T2.AssemblyInfoInputs.cache
+/Users/winnerbylife/Desktop/IiSP/KP1/KP1/KP1T2/obj/Debug/net10.0/KP1T2.AssemblyInfo.cs
+/Users/winnerbylife/Desktop/IiSP/KP1/KP1/KP1T2/obj/Debug/net10.0/KP1T2.csproj.CoreCompileInputs.cache
+/Users/winnerbylife/Desktop/IiSP/KP1/KP1/KP1T2/obj/Debug/net10.0/KP1T2.sourcelink.json
+/Users/winnerbylife/Desktop/IiSP/KP1/KP1/KP1T2/obj/Debug/net10.0/KP1T2.dll
+/Users/winnerbylife/Desktop/IiSP/KP1/KP1/KP1T2/obj/Debug/net10.0/refint/KP1T2.dll
+/Users/winnerbylife/Desktop/IiSP/KP1/KP1/KP1T2/obj/Debug/net10.0/KP1T2.pdb
+/Users/winnerbylife/Desktop/IiSP/KP1/KP1/KP1T2/obj/Debug/net10.0/KP1T2.genruntimeconfig.cache
+/Users/winnerbylife/Desktop/IiSP/KP1/KP1/KP1T2/obj/Debug/net10.0/ref/KP1T2.dll

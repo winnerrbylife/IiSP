@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="IPR1_2.CurrencyConverterPage"
+             Title="Конвертер валют">
+    
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="15">
+            
+            <Label Text="Дата курса:" FontSize="16"/>
+            <DatePicker x:Name="DatePicker" 
+                        Format="yyyy-MM-dd"
+                        DateSelected="DatePicker_DateSelected"/>
+            
+            <Label x:Name="DateInfoLabel" 
+                   Text="Курсы на сегодня" 
+                   FontSize="14" 
+                   TextColor="Gray"/>
+            
+            <Button Text="Загрузить курсы" 
+                    Clicked="OnLoadRatesClicked" 
+                    HeightRequest="50"
+                    BackgroundColor="#2196F3"
+                    TextColor="White"/>
+            
+            <Label Text="Курсы НБРБ:" FontSize="16" FontAttributes="Bold"/>
+            <Frame BackgroundColor="#F5F5F5" Padding="10">
+                <CollectionView x:Name="RatesCollectionView" HeightRequest="200">
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Frame Padding="10" Margin="0,0,0,5">
+                                <VerticalStackLayout>
+                                    <Label Text="{Binding CurName}" 
+                                           FontSize="14" 
+                                           FontAttributes="Bold"/>
+                                    <HorizontalStackLayout Spacing="10">
+                                        <Label Text="{Binding CurScale, StringFormat='{0} ед.:'}" 
+                                               FontSize="12"/>
+                                        <Label Text="{Binding CurOfficialRate, StringFormat='{0:F4} BYN'}" 
+                                               FontSize="12" 
+                                               TextColor="Green"
+                                               FontAttributes="Bold"/>
+                                    </HorizontalStackLayout>
+                                    <Label Text="{Binding CurAbbreviation}" 
+                                           FontSize="11" 
+                                           TextColor="Gray"/>
+                                </VerticalStackLayout>
+                            </Frame>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
+            </Frame>
+            
+            <Frame BackgroundColor="#E3F2FD" Padding="15">
+                <VerticalStackLayout Spacing="10">
+                    <Label Text="Конвертер валют" 
+                           FontSize="16" 
+                           FontAttributes="Bold"
+                           TextColor="#1565C0"/>
+                    
+                    <Label Text="Выберите валюту:" FontSize="14"/>
+                    <Picker x:Name="CurrencyPicker" 
+                            Title="Выберите валюту"
+                            ItemDisplayBinding="{Binding CurName}"
+                            HeightRequest="50"/>
+                    
+                    <Label Text="Введите сумму:" FontSize="14"/>
+                    <Entry x:Name="AmountEntry" 
+                           Placeholder="Например: 100" 
+                           Keyboard="Numeric"
+                           TextChanged="AmountEntry_TextChanged"/>
+                    
+                    <HorizontalStackLayout Spacing="20" HorizontalOptions="Center">
+                        <Button Text="BYN → Валюта" 
+                                Clicked="OnConvertToCurrencyClicked" 
+                                WidthRequest="140"
+                                HeightRequest="50"
+                                BackgroundColor="#4CAF50"
+                                TextColor="White"/>
+                        <Button Text="Валюта → BYN" 
+                                Clicked="OnConvertToBynClicked" 
+                                WidthRequest="140"
+                                HeightRequest="50"
+                                BackgroundColor="#FF9800"
+                                TextColor="White"/>
+                    </HorizontalStackLayout>
+                </VerticalStackLayout>
+            </Frame>
+            
+            <Frame BackgroundColor="#E8F5E8" Padding="15">
+                <Label x:Name="ResultLabel" 
+                       Text="Результат конвертации появится здесь" 
+                       FontSize="18" 
+                       TextColor="#2E7D32"
+                       HorizontalOptions="Center"/>
+            </Frame>
+            
+            <Label Text="Примечание: Курсы загружаются с API Национального банка РБ" 
+                   FontSize="11" 
+                   TextColor="Gray"
+                   HorizontalOptions="Center"/>
+            
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
